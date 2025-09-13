@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wall.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <h1>Wallpaper Tree</h1>
+            <div class="nav-links" id="navLinks">
+               <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+             </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+         
+ <form class="search-bar">
+<i class="fa-solid fa-magnifying-glass"></i>
+<input  class= "input" type="text" placeholder="search..."/>
+ </form>
+        
+
+</div>
+
+
+    </section>
+
+    <section class="wallpapers">
+    <div class="img-wrapped1">
+    <div class="image-box">
+        <img src="images/blurcity.jpg" alt="city" width="300px" height="300px"/>
+    <div class="buttons">
+        <button class="view-btn">View</button>
+        <a href="images/blurcity.jpg" download class="download-btn">Download</a>
+    </div>
+    </div>
+
+   <div class="image-box">
+    <img src="images/Cathedral.jpg" alt="cathedral" width="300px" height="300px"/>
+    <div class="buttons">
+        <button class="view-btn">View</button>
+        <a href="images/Cathedral.jpg" download class="download-btn">Download</a>
+    </div>
+   </div>
+
+    <div class="image-box">
+     <img src="images/DarkGreenhills.jpg" alt="Greenhills" width="300px" height="300px"/>
+     <div class="buttons">
+        <button class="view-btn">View</button>
+        <a href="images/DarkGreenhills.jpg" download class="download-btn">Download</a>
+     </div>
+    </div> 
+     
+     <div class="image-box">
+        <img src="images/frontBluespotcar.jpg" alt="spotcar" width="300px" height="300px"/>
+        <div class="buttons">
+            <button class="view-btn">View</button>
+        <a href="images/DarkGreenhills.jpg" download class="download-btn">Download</a>
+        </div>
+     </div>
+    </div>
+    <div class="img-wrapped2">
+         <div class="image-box">
+            <img src="images/HouselakeShoers.jpg" alt="Houselake Shoers" width="300px" height="300px"/>
+            <div class="buttons">
+                <button class="view-btn">View</button>
+        <a href="images/HouselakeShoers.jpg" download class="download-btn">Download</a>
+            </div>
+         </div>
+
+         <div class="image-box">
+            <img src="images/lamborgin.jpg" alt="lamborgin" width="300px" height="300px"/>
+            <div class="buttons">
+                <button class="view-btn">View</button>
+        <a href="images/lamborgin.jpg" download class="download-btn">Download</a>
+            </div>
+         </div>
+         <div class="image-box">
+            <img src="images/leafygr.jpg" alt="leafygr" width="300px" height="300px"/>
+            <div class="buttons">
+                <button class="view-btn">View</button>
+        <a href="images/leafygr.jpg" download class="download-btn">Download</a>
+            </div>
+         </div>
+         
+         <div class="image-box">
+            <img src="images/leafyparallel.jpg" alt="leafyparallel" width="300px" height="300px"/>
+            <div class="buttons">
+               <button class="view-btn">View</button>
+        <a href="images/leafyparallel.jpg" download class="download-btn">Download</a> 
+            </div>
+         </div>
+    </div>
+    <div class="img-wrapped3">
+     <div class="image-box">
+        <img src="images/medacine.jpg" alt="medacine" width="300px" height="300px"/>
+        <div class="buttons">
+            <button class="view-btn">View</button>
+        <a href="images/medacine.jpg" download class="download-btn">Download</a>
+        </div>
+     </div>
+
+     <div class="image-box">
+        <img src="images/RedspotFront.jpg" alt="Redspot Front" width="300px" height="300px"/>
+        <div class="buttons">
+           <button class="view-btn">View</button>
+        <a href="images/RedspotFront.jpg" download class="download-btn">Download</a> 
+        </div>
+     </div>
+     
+     <div class="image-box">
+        <img src="images/SavannahTree.jpg" alt="Savannah Tree" width="300px" height="300px"/>
+        <div class="buttons">
+           <button class="view-btn">View</button>
+        <a href="images/SavannahTree.jpg" download class="download-btn">Download</a> 
+        </div>
+     </div>
+     
+     <div class="image-box">
+        <img src="images/Valleyforest.jpg" alt="Valleyforest" width="300px" height="300px"/>
+        <div class="buttons">
+            <button class="view-btn">View</button>
+        <a href="images/Valleyforest.jpg" download class="download-btn">Download</a>
+        </div>
+     </div>
+     
+    </div>
+    </section>
+
+    <div class="pagination">
+        <ul>
+            <a href=""><li><</li></a>
+            <a href=""><li>1</li></a>
+            <a href=""><li>2</li></a>
+            <a href=""><li>></li></a>
+        </ul>
+    </div>
+<script>
+    let navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+
+
+
+</body>
+</html>
